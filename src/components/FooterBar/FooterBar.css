@@ -1,0 +1,12 @@
+.footerBar {
+    width: 100%;
+    height: 100px;
+    border-top: solid 1px black;
+    background-color: rgba(246, 246, 246, 1);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 130px;
+    margin-top: 469px;
+
+}

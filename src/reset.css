@@ -1,0 +1,68 @@
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body,
+h1, h2, h3, h4, h5, h6,
+p, ul, ol, li,
+figure, figcaption,
+blockquote, dl, dd {
+    margin: 0;
+    padding: 0;
+}
+
+
+ul, ol {
+    list-style: none;
+}
+
+
+body {
+    line-height: 1.6;
+    font-size: 100%; 
+    font-family: Arial, sans-serif; 
+}
+
+
+img,
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+
+:focus {
+    outline: none;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 8px;
+}
