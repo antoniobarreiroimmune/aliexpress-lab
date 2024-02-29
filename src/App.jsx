@@ -1,10 +1,13 @@
 import ProductPage from "./components/ProductPage/ProductPage"
 import './reset.css'
+import { ChakraProvider } from "@chakra-ui/react"
 
 function App() {
-  return <>
-<ProductPage/>
-  </>
+  return (
+    <ChakraProvider>
+      <ProductPage />
+    </ChakraProvider>
+  );
 }
 
 export default App

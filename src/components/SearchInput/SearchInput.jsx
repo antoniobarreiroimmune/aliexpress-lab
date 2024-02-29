@@ -12,7 +12,7 @@ const SearchInput = ({ onSearchChange }) => {
                     className='customInput'
                     placeholder="Busca un producto"
                     onChange={(e) => onSearchChange(e.target.value)}
-                    pr="2.5rem"
+                    
                 />
                 <img className='lupaIcon'
                     src={lupaIcon}
